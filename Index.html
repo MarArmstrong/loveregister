@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>LO❤️ My Profile</title>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/11e361466d.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+  <div class="navbar">
+    <img class="burger" src="Gallery/burger-bar.png" alt="">
+    <p class="title"> <span class="love">LOVE</span> MOVEMENT</p>
+    <img class="Logo" src="Gallery/LOV3Logotype.png" alt="">
+  </div>
+
+  <div class="Myprof">
+    <p class="prof">My Profile</p><p class="edit">Edit</p>
+  </div>
+  <img class="editimg" src="Gallery/write.png" alt="">
+
+  <img class="profimg" src="Gallery/profimg.png" alt="">
+
+
+
+<form  class="inputs" action="" method="post">
+  <div class="inputdivs">
+  <label class="user">Username <span class="ast">*</span><input type="text" class="Usertrick" id="Usertrick" onclick="showtrick()"></label>
+  </div>
+  <div class="inputdivsdif">
+  <label class="location">Location <span class="ast">*</span> <input class="local" type="text"></label>
+    </div>
+    <div class="term">
+      <img class="check" src="Gallery/Checkboxoff.png"
+        id="imgClickAndChange" onclick="changeImage()"/><p class="termp"><br><span class="terms">Allow to <span class="termpc">Access your Location</span> <br><span class="city">(We only use City, State and Country)</span></span> </p>
+        <img class="pin" src="Gallery/location-pin.png" alt="" style="width:7%; position:relative; bottom:160px; left: 120px;">
+      <br><br>
+      <p class="info">Private information<span class="infotoo">(no other user can see it, just us)</span></p>
+      </div>
+    <div class="inputdivs">
+      <label class="name">Full Name <input type="text"></label>
+    </div>
+    <div class="inputdivs">
+      <label class="mail">Email <span class="ast">*</span> <input type="email"/></label>
+    </div>
+    <div class="inputdivsdif">
+      <label class="pass">Password <span class="ast">*</span> <input id="id-password" class="pass" type="password"/></label>
+    </div>
+    <div class="inputdivs">
+      <label class="date">Date of birth <input class="datep" type="date" value="1998-03-20" /></label>
+    </div>
+  <div class="selec">
+  <label class="gender"><span class="gen">Gender</span> <input type="select"></label><i class="arrow fa-solid fa-angle-down fa-2x"></i>
+   <select class="gendropd" name="gender" >
+    <option  class="gfemale" value="Female">Female</option>
+    <option class="gmale" value="Male">Male</option>
+</select>
+    </div>
+</div>
+    <img class="passicon" id="togglePassword" onclick="showPass()" src="Gallery/visible.png" alt="" style="width: 7%; position: relative; bottom: 355px; left:800px;">
+      <div class="trick" id="trick">
+        <p><span class=profiletip>Profile Tip: Username</span></p><img onclick="hidetrick()" class="x" src="Gallery/close-X.png" alt="">
+        <span class="tricktext"><p>You can use your first name here, or simply a</p>
+        <p>username of your choice if that makes you feel</p>
+        <p>comfortable and secure; the Love Vibes will find you</p>
+        <p>nevertheless. Remember, the Universe know your</p>
+        <p>essence.</p></span>
+      </div>
+</form>
+  </body>
+</html>

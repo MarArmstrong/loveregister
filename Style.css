@@ -1,0 +1,362 @@
+body{
+  background-image:url(gallery/color-background.jpg);
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #464646;
+    background-position: center center;
+    background-size: cover;
+}
+
+.burger{
+  width: 15%;
+}
+
+.title{
+  font-size: 2.5em;
+  position: absolute;top: -10px;right: 350px;
+  color:#ffffff;
+	font-family: SF UI Display;
+}
+
+.Logo{
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar{
+  display: inline-flex;
+}
+
+.Myprof{
+  display: inline-flex;
+}
+
+.prof{
+  color: white;
+  font-size: 3em;
+  position: absolute;top: 100px; left: 370px;
+    font-family: SF UI Display;
+}
+.edit{
+  color: white;
+  position: absolute; top: 100px;left: 830px;
+  font-size: 3em;
+  font-family: SF UI Display;
+  font-weight: 300;
+
+}
+
+input{
+  border-style: hidden;
+  border-color: #e0e0e0;
+  border-bottom: 3px outset;
+  font-size: 65%;
+  width: 85%;
+  height: 3em;
+  margin-top: 7%;
+}
+
+
+
+div {
+  border-color: #e0e0e0 !important;
+}
+
+.editimg{
+  width: 7%;
+  position: absolute; top: 130px;
+  padding-left: 400px;
+}
+
+.love {
+  font-weight: bold;
+}
+.profimg{
+  padding-left: 250px;
+  padding-top: 120px;
+  width: 40%;
+  padding-bottom: 50px;
+}
+.inputs{
+  background-color: white;
+  margin-right: 2em;
+  margin-left: 2em;
+  border-radius: 32px;
+  padding-bottom: 4em;
+
+}
+input{
+  display: inline;
+  border-style: hidden;
+  text-align: right;
+  width: 73%;
+  height: 60px;
+  margin-top: 7%;
+  font-size: 1em;
+  font-family: SF UI Display;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+
+}
+
+.inputdivs{
+    font-size: 2em;
+  border-bottom: 2px outset;
+  padding-bottom: 20px;
+    font-family: SF UI Display;
+}
+
+.inputdivsdif{
+    font-size: 2em;
+  border-bottom: 2px outset;
+  padding-bottom: 20px;
+    font-family: SF UI Display;
+}
+
+.trick{
+  color: #8c4a94;
+  border: 2px outset;
+  border-color: #8c4a94;
+  background-color: white;
+  padding-left: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0;
+  font-size: 30px;
+  position: absolute;top: 820px;
+  border-radius: 32px;
+  left:auto;right: auto;
+  width: 70%;
+  z-index: -1;
+  font-family: SF UI Display;
+}
+
+.tricktext{
+  line-height: 5px;
+  font-style: italic;
+  font-family: SF UI Display;
+  color: #c630a8;
+}
+
+.x{
+  width: 7%;
+  position: absolute;
+  top: 20px;
+  right: 39px;
+}
+
+
+.check{
+  float: left;
+  margin-left: 0 0 1px 90px;
+  padding-top: 1%;
+  width: 6%;
+  height: 6%;
+  position: relative; left: 70px; top: 10px;
+}
+
+.term{
+  font-size:1.5em;
+  font-family: SF UI Display;
+}
+
+.info{
+  font-size: 1.5em;
+  text-align: right;
+  color: #c630a8;
+  font-weight: bold;
+  font-family: SF UI Display;
+  padding-top: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.infotoo{
+  color: grey;
+  font-weight: normal;
+  font-family: SF UI Display;
+}
+
+.profiletip {
+  font-weight: bold;
+  color: #8c4a94;
+}
+.pass{
+  width: 60%;
+}
+
+.local{
+  width: 60%;
+}
+
+.termp{
+  display: inline;
+  position: relative; left: 80px;
+  color: grey;
+}
+
+
+#imgClickAndChange{
+  padding:30px;
+}
+
+.terms{
+  font-size: 35px;
+}
+.termpc{
+  color: #8c4a94;
+  font-weight: bold;
+}
+
+.city {
+  color: #8e6486;
+}
+
+
+.term2{
+  font-size: 2em;
+  text-align: center;
+  text-indent: 3em;
+  margin-top: -25px;
+  font-family: SF UI Display;
+}
+
+.date{
+  text-align: right;
+  width: 70%;
+  font-family: SF UI Display;
+}
+
+.datep{
+  text-align: right;
+  width: 70%;
+  font-family: SF UI Display;
+  color: black;
+}
+
+.pin {
+  width: 7%;
+  position: relative; bottom: 1060px; left:770px;
+}
+
+.select{
+  align-items: flex-end;
+  font-size: 2em;
+  width: 60%;
+  height:60%;
+  font-family: SF UI Display;
+}
+
+
+label {
+  display: inline;
+  width: 140px;
+  text-align: right;
+  font-size: 1em;
+  color: #8c4a94;
+  margin-left: 60px;
+  font-family: SF UI Display;
+
+}​
+
+.pass, .user{
+  text-shadow:0px 0px 1px #8c4a94;
+}
+
+
+.pass, .date {
+  font-weight: bold;
+}
+.pass,  {
+  font-weight: bold;
+}
+.mail {
+  font-weight: bold;
+}
+.name {
+  font-weight: bold;
+}
+.location {
+  font-weight: bold;
+}
+.gen {
+  font-weight: bold;
+  text-align: right;
+  font-size: 2em;
+  color: #8c4a94;
+}
+.gendropd{
+  float: right;
+  position: relative; bottom: 50px; right:57px;
+  font-size: 2em;
+  font-family: SF UI Display;
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+
+}
+
+.gmale, .gfemale {
+  font-family: SF UI Display;
+  font-size: 12px;
+  position: absolute;
+ content: "";
+ top: 14px;
+ right: 10px;
+ width: 0;
+ height: 0;
+ border: 6px solid transparent;
+ border-color: #fff transparent transparent transparent;
+ border-radius: 45px;
+
+}
+
+.gmale {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.gfemale {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.arrow {
+  color: #bc3eee;
+  position: relative; top: 5px;
+}
+
+}
+.passicon{
+  width: 7%;
+  position: relative; bottom: 820px; left:280px;>
+}
+
+.ast {
+  color:  #ff387e;
+}
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 1028px) {
+  .inputs{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:32px;
+    padding-bottom: 10px;
+    height: 90em;
+    width: 90%;
+
+  }
+
+
+
+}
